@@ -22,6 +22,11 @@ p {
     border: none;
 }
 
+.navbar-toggler:focus {
+    color: #FFF;
+    border: none;
+}
+
 .nav-item .nav-link{
     color: #597295 !important;
     font-weight: 400 !important;
@@ -141,3 +146,18 @@ footer {
     border-top: solid 1px #8BB3EA;
 }
 
+@media screen and (max-width: 992px) {
+    .image1, .image2, .image3 {
+        display: none;
+    }
+
+    .aval {
+        margin-top: 0 !important;
+        margin-bottom: -100px !important;
+    }
+
+    iframe {
+        display: none;
+    }
+
+}
