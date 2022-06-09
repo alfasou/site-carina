@@ -17,6 +17,10 @@ p {
     color: #999;
 }
 
+.logo-small {
+    display: none;
+}
+
 .navbar-toggler {
     color: #8BB3EA;
     border: none;
@@ -146,6 +150,11 @@ footer {
     border-top: solid 1px #8BB3EA;
 }
 
+
+
+
+
+
 @media screen and (max-width: 992px) {
     .image1, .image2, .image3 {
         display: none;
@@ -160,4 +169,69 @@ footer {
         display: none;
     }
 
+    .agende-1, .agende-2 {
+        width: 300px;
+    }
+
+    .foto {
+        height: 564px !important;
+        width: 381px !important;
+    }
+
+    .info {
+        padding: 100px !important;
+    }
+
+}
+
+@media screen and (max-width: 614px) {
+    .m-5, .mx-5 {
+        margin-right: -10px !important;
+        margin-left: -10px !important;
+    }
+    
+}
+
+
+@media screen and (max-width: 438px) {
+    .logo {
+        display: none;
+    }
+
+    .logo-small {
+        display: inline-flex;
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+    .foto {
+        height: 451px !important;
+        width: 305px !important;
+    }
+
+}
+
+@media screen and (max-width: 300px) {
+ 
+    .foto {
+        height: 395px !important;
+        width: 267px !important;
+    }
+
+    .texto {
+        height: auto !important;
+    }
+
+    .agende-1, .agende-2 {
+        width: 250px;
+    }
+
+    .aval {
+        margin-top: 100px !important;
+        margin-bottom: -50px !important;
+    }
+
+    .info {
+        padding: 10px !important;
+    }
 }
