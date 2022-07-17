@@ -1,0 +1,351 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Open Sans', Verdana, Tahoma, sans-serif;
+    font-size: 0.9em; 
+}
+
+nav {
+    border-bottom: solid 1px #8BB3EA;
+}
+
+h3, h5, h6 {
+    color: #597295;
+    font-family: 'Poppins', Helvetica, Tahoma, sans-serif;
+}
+
+p, .crp {
+    color: #000;
+    opacity: 0.8;
+}
+
+.logo {
+    max-height: 50px;
+}
+
+.logo-img img {
+    width: 50px;
+}
+
+.logo-text {
+    height:50px;
+    font-family: 'Poppins', Helvetica, Tahoma, sans-serif;
+}
+
+.logo-sub-text {
+    line-height: 0.5;
+}
+
+.carina {
+    font-size: 1.5em;
+    font-weight: 900;
+    line-height: 1.7;
+    color: #8BB3EA;
+}
+
+.psicologa {
+    color: #8BB3EA;
+}
+
+.crp {
+    font-size: 0.8em;
+    line-height: 0.7;
+}
+
+.psicologa:hover, .carina:hover {
+    color: #8BB3EA;
+}
+
+.navbar-toggler {
+    color: #8BB3EA;
+    border: none;
+}
+
+.navbar-toggler:focus {
+    color: #FFF;
+    border: none;
+}
+
+.nav-item .nav-link{
+    color: #597295 !important;
+}
+
+.nav-item .nav-link:hover{
+    color: #8BB3EA !important;
+}
+
+
+.float-end {
+    float: right;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.spacer {
+    background-color: #8BB3EA;
+    height: 3px;
+    width: 90px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.sp-1 {
+    margin-left: auto;
+}
+
+.sp-2 {
+    margin-right: auto;
+}
+
+.foto, .texto {
+    height: 564px;
+    width: 381px;
+    position: relative;
+}
+
+.foto img {
+    margin-left: -12px;
+    border-radius: 5px;
+}
+
+.texto.card {
+    border: solid 1px #8BB3EA;
+}
+
+.card-color {
+    background-color: #D3E6EA;
+    border: none;
+    opacity: 95%;
+    position: relative;
+    max-width: 800px;
+}
+
+.agende-1 {
+    color: #8BB3EA;
+    border: solid 2px #8BB3EA;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.agende-2 {
+    background-color: #D3E6EA;
+    color: #597295;
+    border: solid 2px #8BB3EA;
+    width: 400px;
+    border-radius: 5px;
+}
+
+i {
+    color: #8BB3EA;
+}
+
+h5 i {
+    font-size: 0.9em;
+    line-height: 1.5;
+    vertical-align: middle;
+    padding: 0 10px;
+}
+
+p i {
+    font-size: 0.4em;
+    vertical-align: middle;
+    padding: 0 10px 0 40px;;
+}
+
+#contato p {
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+.parallax-1 {
+    background-image: url("../img/trees.jpg");
+    min-height: 332px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 150px;
+    position: absolute;
+}
+
+.parallax-2 {
+    background-image: url("../img/father.jpg");
+    min-height: 332px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -50px;
+    margin-left: -12px;
+    position: absolute;
+}
+
+.parallax-3 {
+    background-image: url("../img/garden.jpg");
+    min-height: 332px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 150px;
+    position: absolute;
+}
+
+.image1, .image2, .image3 {
+    position: absolute;
+    margin-top: 50px;
+}
+
+#avaliacoes {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.aval {
+    margin: 0 30px;
+}
+
+.aval img {
+    width: 218px;
+    height: 218px;
+    border-radius: 50%;
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+
+footer {
+    border-top: solid 1px #8BB3EA;
+}
+
+
+@media screen and (min-width: 1640px) {
+    .aval p {
+        padding: 0 30px;
+    }
+}
+
+@media screen and (min-width: 995px) {
+    .card-color {
+        width: 850px !important;
+    }
+}
+
+@media screen and (max-width: 995px) {
+    .image1, .image2, .image3 {
+        display: block;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;;
+    }
+
+    .parallax-2 {
+        display: block;
+        position: relative;
+        margin: 0;
+    }
+
+    iframe {
+        display: none;
+    }
+
+    .agende-1, .agende-2 {
+        width: 300px;
+    }
+
+    .foto {
+        height: 564px !important;
+        width: 381px !important;
+    }
+
+}
+
+@media screen and (max-width: 460px) {
+
+    .logo img {
+        max-width: 40px;
+    }
+
+    .logo-sub-text {
+        line-height: 0.5;
+    }
+    
+    .carina {
+        font-size: 1.2em;
+        line-height: 1.6;
+    }
+    .psicologa {
+        font-size: 0.8em;
+    }
+
+     .crp {
+        font-size: 0.7em;
+        line-height: 0.6;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    .logo img {
+        max-width: 40px;
+        margin: 0 -7px
+    }
+     
+    .navbar-toggler-icon {
+        margin: 0 -20px;
+    }
+
+    .agende-1, .agende-2 {
+        width: 250px;
+    }
+
+    .card-color {
+        padding: 20px !important;
+    }
+
+    .card-color p {
+        padding: 0px !important;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+
+    .foto img,  .image1, .image2, .image3 {
+        height: auto;
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .texto {
+        height: auto;
+        margin-top: -80px !important;
+    }
+    
+    .foto {
+        margin-bottom: 0 !important;
+    }
+    
+    .agende-1 {
+        margin-top: 0 !important;
+        margin-bottom: -80px !important;
+    }
+    
+    .agende-2 {
+        margin-top: -100px !important;
+        margin-bottom: -80px !important;
+    }
+}
