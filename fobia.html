@@ -17,12 +17,15 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@100;200;400;600;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Poppins:wght@400;600;900&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-    
+    <button type="button" class="btn btn-light btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
     <nav class="navbar navbar-light navbar-expand-xxl">
         <div class="container-fluid">
             <span class="logo d-flex justify-content-center m-3">
@@ -41,13 +44,15 @@
                     </span>
                 </span>
             </span>
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <span class="collapse navbar-collapse float-end" id="navbarSupportedContent">
                 <ul class="navbar-nav float-end">
                     <li class="nav-item">
-                      <a class="nav-link" href="index.html#sobre-mim">SOBRE</a>
+                      <a class="nav-link" href="index.html#sobre-mim">QUEM SOU EU</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="index.html#oq-tcc">O QUE &Eacute; TCC?</a>
@@ -82,7 +87,7 @@
 
     <section id="fob" class="container z-index-2">
         <div class="row d-flex justify-content-center">
-            <div class="texto-lg card p-4 col-md-8 m-5">
+            <div class="texto-lg card p-4 col-md-7 m-5">
                 <h3>FOBIA ESPEC&Iacute;FICA</h3>
                 <div class="spacer">&nbsp;</div>
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -137,7 +142,7 @@
         </div>
 
         <a href="https://whatsa.me/5519991798580/?t=Ol%C3%A1,%20Carina!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank">
-            <div class="agende-1 text-center p-5 my-5 mx-auto">
+            <div class="agende text-center p-5 my-5 mx-auto">
                 <h4>AGENDE SUA CONSULTA!</h4>
             </div> 
         </a>
@@ -177,6 +182,8 @@
         </div>
     </section>
 
+    <div class="spacer mx-auto spacer-end">&nbsp;</div>
+
     <section id="contato" class="container-fluid">
         <article class="info row d-flex justify-content-center">
             <div class="cont col-lg-3 mt-5 d-flex justify-content-center">
@@ -208,7 +215,8 @@
     </footer>
 
       <!-- Scripts -->
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/fontawesome.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/fontawesome.min.js"></script>
+    <script src="assets/js/back-to-top.js"></script>
 </body>
 </html>
