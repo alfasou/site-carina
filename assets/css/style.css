@@ -470,9 +470,6 @@ footer {
         display: none;
     }
 
-    .agende {
-        width: 300px;
-    }
 }
 
 @media screen and (max-width: 460px) {
@@ -511,7 +508,7 @@ footer {
     }
 
     .agende {
-        width: 250px;
+        width: 300px !important;
     }
 
     .card-color {
@@ -552,6 +549,10 @@ footer {
 
     #avaliacoes {
         margin-top: 0 !important;
+    }
+
+    .agende {
+        width: 250px !important;
     }
 
 
