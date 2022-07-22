@@ -197,9 +197,8 @@ h3, h5, h6 {
     font-weight: 400;
 }
 
-p, .crp {
-    color: #000;
-    opacity: .8;
+p {
+    color: rgba(0, 0, 0, .8)
 }
 
 a {
@@ -254,6 +253,7 @@ a {
 .crp {
     font-size: 0.8em;
     line-height: 0.7em;
+    color: rgba(0, 0, 0, .6)
 }
 
 .psicologa:hover, .carina:hover {
@@ -344,41 +344,33 @@ nav {
     color: #8BB3EA !important;
 }
 
-.parallax-1 {
-    background-image: url("../img/trees.jpg");
+.parallax-1, .parallax-2, .parallax-3 {
     min-height: 332px;
     width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 150px;
     position: absolute;
+}
+
+.parallax-1 {
+    background-image: url("../img/trees.jpg");
+    margin-top: 150px;
 }
 
 .parallax-2 {
     background-image: url("../img/father.jpg");
-    min-height: 332px;
-    width: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: -50px;
+    margin-top: -150px;
     margin-left: -12px;
-    position: absolute;
+    z-index: -1;
+
 }
 
 .parallax-3 {
     background-image: url("../img/garden.jpg");
-    min-height: 332px;
-    width: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     margin-top: 150px;
-    position: absolute;
+
 }
 
 .image1, .image2, .image3 {
@@ -410,7 +402,7 @@ nav {
     border-radius: 50%;
 }
 
-/* FOOTER */
+/* INFOS */
 
 i {
     color: #8BB3EA;
