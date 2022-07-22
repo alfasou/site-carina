@@ -289,8 +289,8 @@ nav {
 .agende {
     color: #8BB3EA;
     border: solid 2px #8BB3EA;
-    width: 400px;
     border-radius: 5px;
+    width: 381px;
 }
 
 .agende:hover {
@@ -470,15 +470,9 @@ footer {
         display: none;
     }
 
-    .agende-1, .agende-2 {
+    .agende {
         width: 300px;
     }
-
-    .foto {
-        height: 564px !important;
-        width: 381px !important;
-    }
-
 }
 
 @media screen and (max-width: 460px) {
@@ -516,7 +510,7 @@ footer {
         margin: 0 -20px;
     }
 
-    .agende-1, .agende-2 {
+    .agende {
         width: 250px;
     }
 
@@ -531,10 +525,9 @@ footer {
     }
 
     .foto img,  .image1, .image2, .image3 {
-        height: auto;
         width: 100% !important;
-        margin-left: 0 !important;
-        margin-right: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
     }
 }
 
@@ -542,20 +535,25 @@ footer {
 @media screen and (max-width: 320px) {
     .texto {
         height: auto;
-        margin-top: -80px !important;
     }
     
     .foto {
+        height: 400px !important;
+    }
+
+    #transtornos {
+        padding-bottom: 0 !important;
         margin-bottom: 0 !important;
     }
-    
-    .agende-1 {
+
+    .parallax-1 {
+        margin-top: 30px;
+    }
+
+    #avaliacoes {
         margin-top: 0 !important;
-        margin-bottom: -80px !important;
     }
-    
-    .agende-2 {
-        margin-top: -100px !important;
-        margin-bottom: -80px !important;
-    }
+
+
+
 }
