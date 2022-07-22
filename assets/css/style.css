@@ -7,6 +7,8 @@ html{
 
 *, *:before, *:after{
     box-sizing:inherit;
+    margin: 0;
+    padding: 0;
 }
 
 /* NORMALIZE */
@@ -185,12 +187,8 @@ textarea{
 
 body {
     font-family: 'Open Sans', Verdana, Tahoma, sans-serif;
-    font-size: 0.9em;
+    font-size: .9em;
     font-weight: 400;
-}
-
-nav {
-    border-bottom: solid 1px #8BB3EA;
 }
 
 h3, h5, h6 {
@@ -201,9 +199,12 @@ h3, h5, h6 {
 
 p, .crp {
     color: #000;
-    opacity: 0.8;
+    opacity: .8;
 }
 
+a {
+    text-decoration: none;
+}
 
 #btn-back-to-top {
     position: fixed;
@@ -211,7 +212,16 @@ p, .crp {
     right: 20px;
     border-radius: 50%;
     display: none;
+    z-index: 2;
 }
+
+.float-end {
+    float: right;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+/* LOGO */
 
 .logo {
     max-height: 50px;
@@ -222,12 +232,12 @@ p, .crp {
 }
 
 .logo-text {
-    height:50px;
+    height: 50px;
     font-family: 'Poppins', Helvetica, Tahoma, sans-serif;
 }
 
 .logo-sub-text {
-    line-height: 0.5;
+    line-height: .5em;
 }
 
 .carina {
@@ -243,11 +253,17 @@ p, .crp {
 
 .crp {
     font-size: 0.8em;
-    line-height: 0.7;
+    line-height: 0.7em;
 }
 
 .psicologa:hover, .carina:hover {
     color: #8BB3EA;
+}
+
+/* MENU */
+
+nav {
+    border-bottom: solid 1px #8BB3EA;
 }
 
 .navbar-toggler {
@@ -268,23 +284,26 @@ p, .crp {
     color: #8BB3EA !important;
 }
 
-.float-end {
-    float: right;
-    margin-right: 0;
-    margin-left: auto;
+/* BOTÃO AGENDE */
+
+.agende {
+    color: #8BB3EA;
+    border: solid 2px #8BB3EA;
+    width: 400px;
+    border-radius: 5px;
 }
 
-.spacer {
-    background-color: #8BB3EA;
-    height: 3px;
-    width: 90px;
-    margin-top: 0;
-    margin-bottom: 20px;
+.agende:hover {
+    color: #597295;
+    border: solid 2px #597295;
 }
 
-.spacer-end {
-    margin-bottom: 100px !important;
+.agende h4 {
+    font-weight: 600 !important;
 }
+
+
+/* CARDS E FOTOS */
 
 .foto, .texto {
     height: 564px;
@@ -309,49 +328,20 @@ p, .crp {
     max-width: 800px;
 }
 
-.agende {
-    color: #8BB3EA;
-    border: solid 2px #8BB3EA;
-    width: 400px;
-    border-radius: 5px;
+.spacer {
+    background-color: #8BB3EA;
+    height: 3px;
+    width: 90px;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
-.agende:hover {
-    color: #597295;
-    border: solid 2px #597295;
-}
-
-.agende h4 {
-    font-weight: 600 !important;
-}
+.spacer-end {
+    margin-bottom: 100px !important;
+} 
 
 .saiba:hover {
     color: #8BB3EA !important;
-}
-
-i {
-    color: #8BB3EA;
-}
-
-h5 i {
-    font-size: 0.9em;
-    line-height: 1.5;
-    vertical-align: middle;
-    padding: 0 10px;
-}
-
-p i {
-    font-size: 0.4em;
-    vertical-align: middle;
-    padding: 0 10px 0 40px;;
-}
-
-#contato p {
-    line-height: 1.5;
-}
-
-a {
-    text-decoration: none;
 }
 
 .parallax-1 {
@@ -396,6 +386,8 @@ a {
     margin-top: 50px;
 }
 
+/* AVALIAÇÕES */
+
 #avaliacoes {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
@@ -416,6 +408,29 @@ a {
     width: 218px;
     height: 218px;
     border-radius: 50%;
+}
+
+/* FOOTER */
+
+i {
+    color: #8BB3EA;
+}
+
+h5 i {
+    font-size: .9em;
+    line-height: 1.5em;
+    vertical-align: middle;
+    padding: 0 10px;
+}
+
+p i {
+    font-size: .4em;
+    vertical-align: middle;
+    padding: 0 10px 0 40px;;
+}
+
+#contato p {
+    line-height: 1.5em;
 }
 
 iframe {
@@ -481,7 +496,7 @@ footer {
     }
 
     .logo-sub-text {
-        line-height: 0.5;
+        line-height: .5em;
     }
     
     .carina {
@@ -489,12 +504,12 @@ footer {
         line-height: 1.6;
     }
     .psicologa {
-        font-size: 0.8em;
+        font-size: .8em;
     }
 
      .crp {
-        font-size: 0.7em;
-        line-height: 0.6;
+        font-size: .7em;
+        line-height: .6em;
     }
 
 }
