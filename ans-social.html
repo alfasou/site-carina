@@ -18,6 +18,11 @@
     <meta name="author" content="Andressa de Faria Souza" />
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
 
+    <!-- Scripts -->
+    <script>
+      document.documentElement.className += ' js';
+    </script>
+
     <!-- CSS e Frameworks -->
     <link href="assets/css/fontawesome.min.css" rel="stylesheet" />
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
@@ -84,27 +89,33 @@
           class="collapse navbar-collapse float-end"
           id="navbarSupportedContent"
         >
-          <ul class="navbar-nav float-end">
+          <ul class="navbar-nav float-end js-menu">
             <li class="nav-item">
-              <a class="nav-link" href="#sobre-mim">QUEM SOU EU</a>
+              <a class="nav-link" href="index.html#sobre-mim">QUEM SOU EU</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#oq-tcc">O QUE &Eacute; TCC?</a>
+              <a class="nav-link" href="index.html#oq-tcc"
+                >O QUE &Eacute; TCC?</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#fobia">FOBIA</a>
+              <a class="nav-link" href="index.html#fobia">FOBIA</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#ans-social">ANSIEDADE SOCIAL</a>
+              <a class="nav-link" href="index.html#ans-social"
+                >ANSIEDADE SOCIAL</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#panico">P&Acirc;NICO</a>
+              <a class="nav-link" href="index.html#panico">P&Acirc;NICO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#agorafobia">AGORAFOBIA</a>
+              <a class="nav-link" href="index.html#agorafobia">AGORAFOBIA</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#ans-geral">ANSIEDADE GENERALIZADA</a>
+              <a class="nav-link" href="index.html#ans-geral"
+                >ANSIEDADE GENERALIZADA</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#avaliacoes"
@@ -123,7 +134,7 @@
     <div class="parallax-3 z-index-n2"></div>
 
     <!-- CONTEÚDO -->
-    <section id="transt-ans" class="container z-index-2">
+    <section id="transt-ans" class="container z-index-2 js-scroll">
       <div class="row d-flex justify-content-center">
         <div class="texto-lg card p-4 col-md-7 m-5">
           <h3>TRANSTORNO DE ANSIEDADE SOCIAL</h3>
@@ -232,7 +243,7 @@
     </section>
 
     <!-- AVALIAÇÕES -->
-    <section id="avaliacoes" class="container-fluid my-5">
+    <section id="avaliacoes" class="container-fluid my-5 js-scroll">
       <div class="d-flex text-center my-5 avaliacoes">
         <div class="mt-5 aval">
           <img src="assets/img/pss1.png" alt="mulher sorrindo" class="mb-4" />
@@ -281,7 +292,7 @@
     <div class="spacer mx-auto spacer-end">&nbsp;</div>
 
     <!-- INFORMAÇÕES -->
-    <section id="contato" class="container-fluid">
+    <section id="contato" class="container-fluid js-scroll">
       <article class="info row d-flex justify-content-center">
         <div class="cont col-lg-3 mt-5 d-flex justify-content-center">
           <div>
@@ -332,6 +343,6 @@
     <!-- Scripts -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/fontawesome.min.js"></script>
-    <script src="assets/js/back-to-top.js"></script>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>

@@ -154,23 +154,23 @@ select {
 }
 
 button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
+[type='button'],
+[type='reset'],
+[type='submit'] {
   -webkit-appearance: button;
 }
 
 button ::-moz-focus-inner,
-[type="button"] ::-moz-focus-inner,
-[type="reset"] ::-moz-focus-inner,
-[type="submit"] ::-moz-focus-inner {
+[type='button'] ::-moz-focus-inner,
+[type='reset'] ::-moz-focus-inner,
+[type='submit'] ::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
 button :-moz-focusring,
-[type="button"] :-moz-focusring,
-[type="reset"] :-moz-focusring,
-[type="submit"] :-moz-focusring {
+[type='button'] :-moz-focusring,
+[type='reset'] :-moz-focusring,
+[type='submit'] :-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -192,20 +192,20 @@ textarea {
   overflow: auto;
 }
 
-[type="checkbox"],
-[type="radio"] {
+[type='checkbox'],
+[type='radio'] {
   padding: 0;
 }
 
-[type="number"] ::-webkit-inner-spin-button,
-[type="number"] ::-webkit-outer-spin-button {
+[type='number'] ::-webkit-inner-spin-button,
+[type='number'] ::-webkit-outer-spin-button {
   height: auto;
 }
-[type="search"] {
+[type='search'] {
   -webkit-appearance: textfield;
   outline-offset: -2px;
 }
-[type="search"] ::-webkit-search-decoration {
+[type='search'] ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 ::-webkit-file-upload-button {
@@ -216,7 +216,7 @@ textarea {
 /* PAGE STYLE */
 
 body {
-  font-family: "Open Sans", Verdana, Tahoma, sans-serif;
+  font-family: 'Open Sans', Verdana, Tahoma, sans-serif;
   font-size: 0.9em;
   font-weight: 400;
 }
@@ -225,7 +225,7 @@ h3,
 h5,
 h6 {
   color: #597295;
-  font-family: "Poppins", Helvetica, Tahoma, sans-serif;
+  font-family: 'Poppins', Helvetica, Tahoma, sans-serif;
   font-weight: 400;
 }
 
@@ -246,6 +246,17 @@ a {
   z-index: 2;
 }
 
+.js .js-scroll {
+  opacity: 0;
+  transform: translate3d(0, -30px, 0);
+  transition: 0.5s;
+}
+
+.js .js-scroll.ativo {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
 .float-end {
   float: right;
   margin-right: 0;
@@ -264,7 +275,7 @@ a {
 
 .logo-text {
   height: 50px;
-  font-family: "Poppins", Helvetica, Tahoma, sans-serif;
+  font-family: 'Poppins', Helvetica, Tahoma, sans-serif;
 }
 
 .logo-sub-text {
@@ -391,19 +402,19 @@ nav {
 }
 
 .parallax-1 {
-  background-image: url("../img/trees.jpg");
+  background-image: url('../img/trees.jpg');
   margin-top: 150px;
 }
 
 .parallax-2 {
-  background-image: url("../img/father.jpg");
+  background-image: url('../img/father.jpg');
   margin-top: -150px;
   margin-left: -12px;
   z-index: -1;
 }
 
 .parallax-3 {
-  background-image: url("../img/garden.jpg");
+  background-image: url('../img/garden.jpg');
   margin-top: 150px;
 }
 
