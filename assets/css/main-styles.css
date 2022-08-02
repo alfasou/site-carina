@@ -39,7 +39,7 @@ a {
   transition: 0.5s;
 }
 
-.js [data-scroll='anime'].ativo {
+.js [data-scroll='anime'].active {
   opacity: 1;
   transform: translate3d(0, 0, 0);
 }
