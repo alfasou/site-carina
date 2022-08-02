@@ -1,0 +1,119 @@
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 1640px) {
+  .aval p {
+    padding: 0 30px;
+  }
+}
+
+@media screen and (min-width: 995px) {
+  .card-color {
+    width: 850px !important;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  .image1,
+  .image2,
+  .image3 {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+  }
+
+  .parallax-2 {
+    display: block;
+    position: relative;
+    margin: 0;
+  }
+
+  iframe {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .logo img {
+    max-width: 40px;
+  }
+
+  .logo-sub-text {
+    line-height: 0.5em;
+  }
+
+  .carina {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  .psicologa {
+    font-size: 0.8em;
+  }
+
+  .crp {
+    font-size: 0.7em;
+    line-height: 0.6em;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .logo img {
+    max-width: 40px;
+    margin: 0 -7px;
+  }
+
+  .navbar-toggler-icon {
+    margin: 0 -20px;
+  }
+
+  .agende {
+    width: 300px !important;
+  }
+
+  .card-color {
+    padding: 20px !important;
+  }
+
+  .card-color p {
+    padding: 0px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+
+  .foto img,
+  .image1,
+  .image2,
+  .image3 {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .texto {
+    height: auto;
+  }
+
+  .foto {
+    height: 400px !important;
+  }
+
+  #transtornos {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .parallax-1 {
+    margin-top: 60px;
+  }
+
+  #avaliacoes {
+    margin-top: 0 !important;
+  }
+
+  .agende {
+    width: 250px !important;
+  }
+}
