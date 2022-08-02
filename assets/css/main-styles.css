@@ -4,6 +4,8 @@ body {
   font-family: 'Open Sans', Verdana, Tahoma, sans-serif;
   font-size: 0.9em;
   font-weight: 400;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 h3,
