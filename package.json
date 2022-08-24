@@ -1,14 +1,14 @@
 {
-  "name": "codigos",
+  "name": "site-carina",
   "version": "1.0.0",
-  "description": "Landing page para informações de psicologia, feito com Bootstrap 5",
+  "description": "landing page para informações de psicologia, feito com Bootstrap 5",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --mode development --watch",
     "build": "webpack --mode production"
   },
-  "author": "",
+  "author": "Andressa de Faria Souza",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.18.10",
