@@ -1,8 +1,6 @@
 export default function initSmoothScroll() {
   //Get all menu links
-  const linksScroll = document.querySelectorAll(
-    '[data-scroll="smooth"] a[href^="#"]'
-  );
+  const linksScroll = document.querySelectorAll('[data-scroll="smooth"] a[href^="#"]');
 
   //Makes scroll slightly slower
   function scrollToSection(event) {

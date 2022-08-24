@@ -1,0 +1,31 @@
+{
+  "name": "codigos",
+  "version": "1.0.0",
+  "description": "Landing page para informações de psicologia, feito com Bootstrap 5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.13",
+    "@babel/plugin-transform-runtime": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "babel-loader": "^8.2.5",
+    "eslint": "^8.22.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfasou/Site-Carina.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alfasou/Site-Carina/issues"
+  },
+  "homepage": "https://github.com/alfasou/Site-Carina#readme"
+}
