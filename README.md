@@ -1,4 +1,4 @@
-# Site-Carina
+# Site Carina
 Landing page para informações de psicologia, feito com Bootstrap 5
 
 ## Protótipos
