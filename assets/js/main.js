@@ -1,1 +1,12 @@
-(()=>{"use strict";function t(t,e){for(var n=0;n<e.length;n++){var o=e[n];o.enumerable=o.enumerable||!1,o.configurable=!0,"value"in o&&(o.writable=!0),Object.defineProperty(t,o.key,o)}}var e,n=function(){function e(t,n){!function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}(this,e),this.linksScroll=document.querySelectorAll(t),this.options=void 0===n?{behavior:"smooth",block:"start"}:n,this.scrollToSection=this.scrollToSection.bind(this)}var n,o;return n=e,(o=[{key:"scrollToSection",value:function(t){t.preventDefault();var e=t.currentTarget.getAttribute("href");document.querySelector(e).scrollIntoView(this.options)}},{key:"addLinkEvent",value:function(){var t=this;this.linksScroll.forEach((function(e){e.addEventListener("click",t.scrollToSection)}))}},{key:"init",value:function(){return this.linksScroll.length&&this.addLinkEvent(),this}}])&&t(n.prototype,o),Object.defineProperty(n,"prototype",{writable:!1}),e}();e=document.getElementById("btn-back-to-top"),window.onscroll=function(){document.body.scrollTop>100||document.documentElement.scrollTop>100?e.style.display="block":e.style.display="none"},e.addEventListener("click",(function(){document.body.scrollTop=0,document.documentElement.scrollTop=0})),new n('[data-scroll="smooth"] a[href^="#"]').init(),function(){var t=document.querySelectorAll('[data-scroll="anime"]'),e=.4*window.innerHeight;function n(){t.forEach((function(t){t.getBoundingClientRect().top-e-e<0?t.classList.add("active"):t.classList.contains("active")&&t.classList.remove("active")}))}t.length&&(n(),window.addEventListener("scroll",n))}()})();
+// Back To Top Button
+import initBackToTop from './modules/back-to-top-button.js';
+initBackToTop();
+
+// Smooth Scroll
+import SmoothScroll from './modules/smooth-scroll.js';
+const smoothScroll = new SmoothScroll('[data-scroll="smooth"] a[href^="#"]');
+smoothScroll.init();
+
+// Scroll Animation
+import initScrollAnimation from './modules/scroll-animation.js';
+initScrollAnimation();

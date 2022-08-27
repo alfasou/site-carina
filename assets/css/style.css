@@ -1,5 +1,7 @@
 @charset "utf-8";
 
-@import 'reset.css';
-@import 'main-styles.css';
-@import 'media-queries.css';
+@import 'reset.min.css';
+@import 'fontawesome.min.css';
+@import 'bootstrap.min.css';
+@import 'main-styles.min.css';
+@import 'media-queries.min.css';
