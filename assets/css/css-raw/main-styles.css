@@ -61,8 +61,11 @@ a {
 }
 
 .logo-text {
-  margin: 0;
   font-family: 'Poppins', Helvetica, Tahoma, sans-serif;
+}
+
+.logo-text .nav-link {
+  padding: 7px 0 !important;
 }
 
 .logo-sub-text {
@@ -81,6 +84,7 @@ a {
 }
 
 .crp {
+  margin: 0;
   font-size: 0.8em;
   line-height: 0.7em;
   color: rgba(0, 0, 0, 0.6);
