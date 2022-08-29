@@ -8,6 +8,6 @@ const smoothScroll = new SmoothScroll('[data-scroll="smooth"] a[href^="#"]');
 smoothScroll.init();
 
 // Scroll Animation
-import ScrollAnimation from './modules/scroll-animation-copy.js';
+import ScrollAnimation from './modules/scroll-animation.js';
 const scrollAnimation = new ScrollAnimation('[data-scroll="anime"]');
 scrollAnimation.init();
