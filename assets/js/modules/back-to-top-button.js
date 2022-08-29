@@ -1,24 +1,31 @@
-export default function initBackToTop() {
-  //Get the button
-  const mybutton = document.getElementById('btn-back-to-top');
+export default class BackToTop {
+  constructor(button) {
+    //Get the button
+    this.mybutton = document.getElementById(button);
+  }
 
   // When the user scrolls down 100px from the top of the document, show the button
-  window.onscroll = function () {
-    scrollFunction();
-  };
-
-  function scrollFunction() {
+  scrollFunction() {
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-      mybutton.style.display = 'block';
+      this.mybutton.style.display = 'block';
     } else {
-      mybutton.style.display = 'none';
+      this.mybutton.style.display = 'none';
     }
   }
-  // When the user clicks on the button, scroll to the top of the document
-  mybutton.addEventListener('click', backToTop);
 
-  function backToTop() {
+  // When the user clicks on the button, scroll to the top of the document
+  backToTop() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
+  }
+
+  //Activates the button functions
+  init() {
+    //Button show up on scroll
+    window.onscroll = () => {
+      this.scrollFunction();
+    };
+    //Back to top
+    this.mybutton.addEventListener('click', this.backToTop);
   }
 }
